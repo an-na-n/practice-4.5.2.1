@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
       <MantineProvider theme={theme}>
-        <BrowserRouter>
+        <BrowserRouter basename="/practice-4.5.2.1/">
           <App />
         </BrowserRouter>
       </MantineProvider>
