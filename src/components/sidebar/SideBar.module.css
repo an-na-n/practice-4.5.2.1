@@ -1,0 +1,19 @@
+.block {
+  background-color: var(--mantine-color-white-0);
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 317px;
+}
+
+.skills-block {
+  margin-bottom: 10px;
+}
+
+.city input:hover:not(:focus) {
+  background-color: var(--mantine-color-ultraLight-2);
+}
+
+.city input:focus {
+  border-color: var(--mantine-color-primary-4);
+}

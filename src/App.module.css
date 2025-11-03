@@ -1,0 +1,7 @@
+body .container {
+  padding: 0;
+  padding-bottom: 84px;
+  margin-inline: 220px;
+  width: 100%;
+  min-width: 1000px;
+}

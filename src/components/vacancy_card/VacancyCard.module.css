@@ -1,0 +1,71 @@
+.card {
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 659px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--mantine-color-darkPrimary-6);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.experience {
+  font-size: 14px;
+  color: var(--mantine-color-gray-9);
+}
+
+.company {
+  font-size: 14px;
+  color: var(--mantine-color-gray-9);
+}
+
+.badge {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0;
+  padding: 0 6px;
+  border-radius: 2px;
+  height: 14px;
+  border: none;
+}
+
+.area {
+  margin-bottom: 8px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.button {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button-apply {
+  color: var(--mantine-color-black-9);
+}
+
+.button-apply:hover {
+  color: var(--mantine-color-black-9);
+}

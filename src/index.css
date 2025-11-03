@@ -1,0 +1,23 @@
+:root {
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--mantine-color-background-0);
+  font-family: Open Sans, sans-serif;
+}
+
+.mantine-Popover-dropdown {
+  border: none;
+  border-color: transparent;
+}
+
+.m_4ad7767d.mantine-Pagination-dots svg {
+  align-self: flex-end;
+}
